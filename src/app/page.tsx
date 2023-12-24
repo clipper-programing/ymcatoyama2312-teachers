@@ -12,7 +12,6 @@ export default function Home() {
 
       <HanedaEticket />
       <KixEticket />
-      <hkgEticket />
       
     </main>
   )
