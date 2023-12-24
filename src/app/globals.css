@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+body, p, h1, h2, h3, h4, h5, h6, a, ul, li, ol, dl, dd, dt, input, textarea, button, figure, figcaption, blockquote, cite, fieldset, legend, caption, hr, pre, table, th, td, form, header, footer, nav, section, article, aside, details, summary, audio, video, canvas, svg {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #fff;
+}
+
+.header-background {
+  background-image: url(/IMG_6820.jpg);
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
